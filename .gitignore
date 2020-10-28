@@ -12,6 +12,7 @@
 /build
 
 # misc
+/docs/images/git.md
 .DS_Store
 .env.local
 .env.development.local
