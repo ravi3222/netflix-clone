@@ -7,12 +7,12 @@ export function IsUserRedirect({ user, loggedInPath, children, ...rest }) {
       {...rest}
       render={() => {
         if (!user) {
-          console.log("user", user);
+          // console.log("user", user);
           return children;
         }
 
         if (user) {
-          console.log("I am a user", loggedInPath);
+          // console.log("I am a user", loggedInPath);
           return (
             <Redirect
               to={{

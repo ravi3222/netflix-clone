@@ -37,6 +37,7 @@
   "jest": {
     "collectCoverageFrom": [
       "<rootDir>/src/**/*.js",
+      "!<rootDir>/src/app.js",
       "!<rootDir>/src/index.js",
       "!<rootDir>/src/seed.js",
       "!<rootDir>/src/global-styles.js",
