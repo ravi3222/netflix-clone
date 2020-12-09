@@ -41,6 +41,7 @@ export const Picture = styled.button`
 
 export const Group = styled.div`
   display: flex;
+  align-items: center;
 `;
 
 export const Link = styled.p`

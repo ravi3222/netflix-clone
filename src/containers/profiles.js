@@ -31,7 +31,7 @@ export function SelectProfileContainer({ user, setProfile }) {
             <Profiles.Picture src={user.photoURL} />
             <Profiles.Name>
               <span role="img" aria-label="rocket-icon">
-                🚀
+                ❤️
               </span>{" "}
               {user.displayName}
             </Profiles.Name>
