@@ -22,30 +22,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">40% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>6/15</span>
+                <span class='fraction'>15/15</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/4</span>
+                <span class='fraction'>4/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">14.29% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/7</span>
+                <span class='fraction'>7/7</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">42.86% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>6/14</span>
+                <span class='fraction'>14/14</span>
             </div>
         
             
@@ -54,7 +54,7 @@
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -133,30 +133,12 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -164,9 +146,27 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { createContext, useContext, useState } from "react";
 import {
@@ -188,24 +188,24 @@ export default function Accordion({ children, ...restProps }) {
   );
 }
 &nbsp;
-Accordion.Title = function <span class="fstat-no" title="function not covered" >AccordionTitle(</span>{ children, ...restProps }) {
-<span class="cstat-no" title="statement not covered" >  return &lt;Title {...restProps}&gt;{children}&lt;/Title&gt;;</span>
+Accordion.Title = function AccordionTitle({ children, ...restProps }) {
+  return &lt;Title {...restProps}&gt;{children}&lt;/Title&gt;;
 };
 &nbsp;
-Accordion.Item = function <span class="fstat-no" title="function not covered" >AccordionItem(</span>{ children, ...restProps }) {
-  const [toggleShow, setToggleShow] = <span class="cstat-no" title="statement not covered" >useState(false);</span>
-<span class="cstat-no" title="statement not covered" >  return (</span>
+Accordion.Item = function AccordionItem({ children, ...restProps }) {
+  const [toggleShow, setToggleShow] = useState(false);
+  return (
     &lt;ToggleContext.Provider value={{ toggleShow, setToggleShow }}&gt;
       &lt;Item {...restProps}&gt;{children}&lt;/Item&gt;
     &lt;/ToggleContext.Provider&gt;
   );
 };
 &nbsp;
-Accordion.Header = function <span class="fstat-no" title="function not covered" >AccordionHeader(</span>{ children, ...restProps }) {
-  const { toggleShow, setToggleShow } = <span class="cstat-no" title="statement not covered" >useContext(ToggleContext);</span>
-<span class="cstat-no" title="statement not covered" >  return (</span>
+Accordion.Header = function AccordionHeader({ children, ...restProps }) {
+  const { toggleShow, setToggleShow } = useContext(ToggleContext);
+  return (
     &lt;Header
-      onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >setToggleShow(<span class="fstat-no" title="function not covered" >(t</span>oggleShow) =&gt; <span class="cstat-no" title="statement not covered" >!toggleShow)</span>}</span>
+      onClick={() =&gt; setToggleShow((toggleShow) =&gt; !toggleShow)}
       {...restProps}
     &gt;
       {children}
@@ -219,10 +219,10 @@ Accordion.Header = function <span class="fstat-no" title="function not covered" 
   );
 };
 &nbsp;
-Accordion.Body = function <span class="fstat-no" title="function not covered" >AccordionBody(</span>{ children, ...restProps }) {
-  const { toggleShow } = <span class="cstat-no" title="statement not covered" >useContext(ToggleContext);</span>
+Accordion.Body = function AccordionBody({ children, ...restProps }) {
+  const { toggleShow } = useContext(ToggleContext);
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  return toggleShow ? &lt;Body {...restProps}&gt;{children}&lt;/Body&gt; : null;</span>
+  return toggleShow ? &lt;Body {...restProps}&gt;{children}&lt;/Body&gt; : null;
 };
 &nbsp;</pre></td></tr></table></pre>
 
@@ -231,7 +231,7 @@ Accordion.Body = function <span class="fstat-no" title="function not covered" >A
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Thu Dec 10 2020 03:45:34 GMT+0530 (India Standard Time)
+                at Thu Dec 10 2020 13:29:07 GMT+0530 (India Standard Time)
             </div>
         </div>
         <script src="..\..\..\prettify.js"></script>
