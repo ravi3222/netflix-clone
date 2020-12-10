@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> renders the <Card /> with populated data 1`] = `
+<div
+  class="card__Group-sc-1tn30zk-2 nsvHM"
+>
+  <div
+    class="card__Container-sc-1tn30zk-1"
+  >
+    <p
+      class="card__Title-sc-1tn30zk-0 cszPMP"
+    >
+      Documentaries
+    </p>
+    <div
+      class="card__Entities-sc-1tn30zk-12 bJEQeq"
+    >
+      <div
+        class="card__Item-sc-1tn30zk-13 jlzAan"
+      >
+        <img
+          class="card__Image-sc-1tn30zk-14 ioNJXm"
+          src="/images/series/documentaries/tiger-king/small.jpg"
+        />
+        <div
+          class="card__Meta-sc-1tn30zk-11 cQlATW"
+        >
+          <p
+            class="card__SubTitle-sc-1tn30zk-3 ifZMmT"
+          >
+            Tiger King
+          </p>
+          <p
+            class="card__Text-sc-1tn30zk-4 bTOIze"
+          >
+            Tiger King description
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="card__Container-sc-1tn30zk-1"
+  >
+    <p
+      class="card__Title-sc-1tn30zk-0 cszPMP"
+    >
+      Feel Good
+    </p>
+    <div
+      class="card__Entities-sc-1tn30zk-12 bJEQeq"
+    >
+      <div
+        class="card__Item-sc-1tn30zk-13 jlzAan"
+      >
+        <img
+          class="card__Image-sc-1tn30zk-14 ioNJXm"
+          src="/images/series/feel-good/juno/small.jpg"
+        />
+        <div
+          class="card__Meta-sc-1tn30zk-11 cQlATW"
+        >
+          <p
+            class="card__SubTitle-sc-1tn30zk-3 ifZMmT"
+          >
+            Juno
+          </p>
+          <p
+            class="card__Text-sc-1tn30zk-4 bTOIze"
+          >
+            Juno description
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
